@@ -1,5 +1,5 @@
 body {
-    background-image: url(/img/backst.png);
+    background-image: url(./img/backst.png);
     background-repeat: no-repeat;
     background-size: 1441px 811px;
     margin: 0px;
@@ -91,4 +91,5 @@ body {
 
 .services-section__item-linkgr {
     color: #D4D6D4;
+
 }
