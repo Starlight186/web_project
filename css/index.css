@@ -1,9 +1,11 @@
 body {
-    background-image: url(../img/backst.png);
+    background-image: url(/img/backst.png);
     background-repeat: no-repeat;
     background-size: 1441px 811px;
     margin: 0px;
     padding: 0px; 
+    font-family: 'poppins';
+    
 }
 .header {
     display: flex; 
@@ -34,28 +36,36 @@ body {
     margin: 121px 659px 211px 166px;
 }
 .main-section__intro {
-    width: 110px;
+    width: 100px;
     height: 21px;
     margin-bottom: 22px; 
 }
 
 .main-section__title {
     color: #FFFFFF ;
-    /* margin-bottom: 24px; */
+    margin: 0px;
+    margin-bottom: 24px;
+    font-size: 60px;
+    line-height: 74px;
+
 }
 
 .main-section__description {
     color: #FFFFFF ;
-    margin-top: 24px;
+    margin: 0;
     margin-bottom: 45px;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 .main-section__link {
-    display:block;
-
     color: #FFD723;
     width: 114px ;
     height: 24px;
+    display: inline-flex;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
 }
 
 .services-section {
@@ -65,38 +75,48 @@ body {
 } 
 
 .services-section__title { 
-    color: #000000
-} 
+    margin: 0;
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #4D533C;
+}
 
 .services-section__list-items {
-    margin-top: 60px;
+    list-style-type: none;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
     gap: 30px;
+    grid-template-columns: repeat(4, 1fr)
 }
-
 /* .services-section__item {
-} */ 
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column; 
+}  */
 
 .services-section__item-title {
-        color: #4D533C;
+    margin: 0;
+	margin-bottom: 20px;
+	max-width: 183px;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 34px;
+	text-transform: uppercase;
+	color: #4D533C;
 }
 
-/* .services-descr {
-} */
+.services-descr {
+    margin: 0;
+	margin-bottom: 56px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 26px;
+    color: #213842;
+} 
 
-.services-section__item-linkye {
-    color: #FFD723;
+.services-section__item-link {
+    margin-bottom: 0;
+	margin-top: auto;
+    color: #D4D6D4; 
 }
-
-.services-section__item-linkgr {
-    color: #D4D6D4;
-
-}
-
-
-
-
-
-
-
